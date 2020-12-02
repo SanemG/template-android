@@ -2,6 +2,8 @@ name: PR Pipeline Workflow
 
 # Execute PR Pipeline Workflow on pull requests to master
 on:
+  workflow_dispatch:
+
   pull_request:
     branches:
       - master
